@@ -87,7 +87,7 @@
   "kind": "png",
   "title": "Use case 6 — Industrial zones",
   "alt": "Use case 6 — Industrial zones: industrial clusters",
-  "caption": "45 industrial clusters detected from concordant satellite signals: 10 heavy industry, 10 business parks & logistics, 8 oil & gas sites and 17 isolated sites to verify. They emit 17.8% of national light (latest year); their light changes by +2.0% per year. Oshana has the most industrial activity. (confidence low: precision 51% and recall 14% against the reference list)",
+  "caption": "45 industrial clusters detected from concordant satellite signals: 10 heavy industry, 10 business parks & logistics, 8 oil & gas sites and 17 isolated sites to verify. They emit 17.8% of national light (latest year); their light changes by +2.0% per year. Oshana has the most industrial activity. (confidence low: no reference list available to validate the detection)",
   "source": "VIIRS · GHSL · Sentinel-5P · MODIS · OpenStreetMap",
   "width": 800,
   "height": 500,
@@ -176,7 +176,7 @@
   "source": "dashboard",
   "width": 1440,
   "height": 900,
-  "bytes": 305602,
+  "bytes": 301543,
   "page": "industry"
  },
  "screen_tourism": {
@@ -224,6 +224,6 @@
   "source": "dashboard",
   "width": 960,
   "height": 600,
-  "bytes": 2970764
+  "bytes": 2964457
  }
 }

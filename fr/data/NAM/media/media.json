@@ -87,7 +87,7 @@
   "kind": "png",
   "title": "Cas d'usage 6 — Zones industrielles",
   "alt": "Cas d'usage 6 — Zones industrielles: grappes industrielles",
-  "caption": "45 grappes industrielles détectées par concordance de signaux satellitaires : 10 d'industrie lourde, 10 zones d'activités et de logistique, 8 sites d'hydrocarbures et 17 sites isolés à vérifier. Elles émettent 17,8 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,0 % par an. Oshana concentre la plus forte activité industrielle. (confiance faible : précision 51 % et rappel 14 % face à la liste de référence)",
+  "caption": "45 grappes industrielles détectées par concordance de signaux satellitaires : 10 d'industrie lourde, 10 zones d'activités et de logistique, 8 sites d'hydrocarbures et 17 sites isolés à vérifier. Elles émettent 17,8 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,0 % par an. Oshana concentre la plus forte activité industrielle. (confiance faible : aucune liste de référence pour valider la détection)",
   "source": "VIIRS · GHSL · Sentinel-5P · MODIS · OpenStreetMap",
   "width": 800,
   "height": 500,
@@ -176,7 +176,7 @@
   "source": "dashboard",
   "width": 1440,
   "height": 900,
-  "bytes": 312374,
+  "bytes": 308286,
   "page": "industry"
  },
  "screen_tourism": {
@@ -224,6 +224,6 @@
   "source": "dashboard",
   "width": 960,
   "height": 600,
-  "bytes": 3003454
+  "bytes": 2997982
  }
 }

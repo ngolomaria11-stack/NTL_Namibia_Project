@@ -1,6 +1,6 @@
 {
  "version": "2.1.0",
- "generated": "2026-10-30T04:59:21",
+ "generated": "2026-11-03T12:57:51",
  "country": "Namibie",
  "period": [
   2014,
@@ -133,15 +133,15 @@
    ],
    "method": "Concordance de six signaux par pixel (≥ 3 dont la lumière), grappes 8-connexes, typologie et confiance.",
    "validation": {
-    "text": "Comparaison avec la liste de référence (OpenStreetMap)",
+    "text": "Comparaison avec la liste de référence (n.d.)",
     "metric": "précision / rappel / F1",
-    "value": "51 % / 14 % / 0,22"
+    "value": "non disponible"
    },
    "uncertainty": "Confiance par grappe selon le nombre de signaux forts ; sites isolés à vérifier.",
    "limits": "Résolution de Sentinel-5P (≈ 5 km) et MODIS (1 km) : les signaux qualifient un voisinage.",
    "status": "experimental",
    "confidence": "faible",
-   "confidence_reason": "précision 51 % et rappel 14 % face à la liste de référence"
+   "confidence_reason": "aucune liste de référence pour valider la détection"
   },
   {
    "uc": 7,

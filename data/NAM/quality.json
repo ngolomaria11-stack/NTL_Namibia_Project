@@ -1,6 +1,6 @@
 {
  "version": "2.1.0",
- "generated": "2026-10-30T04:59:21",
+ "generated": "2026-11-03T12:57:50",
  "country": "Namibia",
  "period": [
   2014,
@@ -133,15 +133,15 @@
    ],
    "method": "Concordance of six signals per pixel (≥ 3 including light), 8-connected clusters, typology and confidence.",
    "validation": {
-    "text": "Comparison with the reference list (OpenStreetMap)",
+    "text": "Comparison with the reference list (n/a)",
     "metric": "precision / recall / F1",
-    "value": "51% / 14% / 0.22"
+    "value": "not available"
    },
    "uncertainty": "Per-cluster confidence from the number of strong signals; isolated sites to verify.",
    "limits": "Sentinel-5P (≈ 5 km) and MODIS (1 km) resolution: signals describe a neighbourhood.",
    "status": "experimental",
    "confidence": "low",
-   "confidence_reason": "precision 51% and recall 14% against the reference list"
+   "confidence_reason": "no reference list available to validate the detection"
   },
   {
    "uc": 7,
