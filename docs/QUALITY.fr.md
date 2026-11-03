@@ -3,7 +3,7 @@
 # Rapport qualité — Namibie
 
 - **version** — 2.1.0
-- **generated** — 2026-10-30T04:59:21
+- **generated** — 2026-11-03T12:57:51
 - **country** — Namibie
 - **period** — 2014, 2025
 
@@ -16,7 +16,7 @@
 | 3 | Relation lumières–PIB | `experimental` | faible | corrélation / EAM (points) = -0,55 / 3,6 — Suivi hors échantillon de la croissance officielle | VIIRS, PIB réel (Banque mondiale, WDI) |
 | 4 | Chocs et résilience | `experimental` | faible | creux (choc principal) = -2,9 % — non — Le creux dépasse-t-il la variabilité ordinaire ? | VIIRS (monthly), Black Marble VNP46A2 (daily), catalogue d'événements |
 | 5 | Inégalités et électrification | `experimental` | moyenne | écart moyen (points) = 28,9 — Écart avec le taux d'accès à l'électricité de la Banque mondiale | VIIRS VNL V2, GHSL / WorldPop, GHSL SMOD, accès à l'électricité (WDI) |
-| 6 | Zones industrielles | `experimental` | faible | précision / rappel / F1 = 51 % / 14 % / 0,22 — Comparaison avec la liste de référence (OpenStreetMap) | VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap |
+| 6 | Zones industrielles | `experimental` | faible | précision / rappel / F1 = non disponible — Comparaison avec la liste de référence (n.d.) | VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap |
 | 7 | Tourisme saisonnier | `experimental` | faible | r = -0,13 — Corrélation avec international tourist arrivals (WDI) | VIIRS (monthly), nuitées ou arrivées WDI |
 | 8 | Signaux d'urbanisation | `experimental` | élevée | Spearman ρ = 0,71 — Corrélation de rang avec la croissance de la surface bâtie GHSL (source indépendante) | VIIRS VNL V2, GHSL GHS-POP / WorldPop, GHSL GHS-BUILT-S R2023A, population urbaine (WDI) |
 
@@ -83,4 +83,4 @@
 
 
 ---
-<sub>Généré par le notebook le 2026-10-30 · version 2.1.0</sub>
+<sub>Généré par le notebook le 2026-11-03 · version 2.1.0</sub>

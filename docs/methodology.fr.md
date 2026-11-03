@@ -104,7 +104,7 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 - **Question** — Où est l'industrie, et son activité progresse-t-elle ?
 - **Données** — VIIRS VNL V2, GHSL BUILT-S, Sentinel-5P NO₂/SO₂, MODIS MOD11A2, OpenStreetMap
 - **Méthode** — Concordance de six signaux par pixel (≥ 3 dont la lumière), grappes 8-connexes, typologie et confiance.
-- **Validation** — Comparaison avec la liste de référence (OpenStreetMap) (**précision / rappel / F1 = 51 % / 14 % / 0,22**)
+- **Validation** — Comparaison avec la liste de référence (n.d.) (**précision / rappel / F1 = non disponible**)
 - **Incertitude** — Confiance par grappe selon le nombre de signaux forts ; sites isolés à vérifier.
 - **Limites** — Résolution de Sentinel-5P (≈ 5 km) et MODIS (1 km) : les signaux qualifient un voisinage.
 - **Statut** — `experimental` · Confiance: faible
@@ -113,9 +113,9 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 
 **Résultats de cette exécution**
 
-- `F08` 45 grappes industrielles détectées par concordance de signaux satellitaires : 10 d'industrie lourde, 10 zones d'activités et de logistique, 8 sites d'hydrocarbures et 17 sites isolés à vérifier. Elles émettent 17,8 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,0 % par an. Oshana concentre la plus forte activité industrielle. (confiance faible : précision 51 % et rappel 14 % face à la liste de référence)
-- `F50` 45 grappes industrielles (≥ 3 signaux sur 6) : Site isolé à vérifier 17, Industrie lourde 10, Zone d'activités et logistique 10, Hydrocarbures et torchères 8. Part de la lumière nationale : 17,8 % ; croissance annuelle +2,0 %. Validation (OpenStreetMap) : précision 51 %, rappel 14 %.
-- `F51` IND-001 — Site isolé à vérifier à Otjinene (Oshana) (55.04 km², 3 signaux, confiance faible); IND-002 — Site isolé à vérifier à Onesi (Oshana) (27.09 km², 3 signaux, confiance faible); IND-003 — Industrie lourde à Rundu Urban (Kavango) (23.435 km², 4 signaux, confiance moyenne); IND-008 — Hydrocarbures et torchères à Opuwo (Erongo) (6.235 km², 3 signaux, confiance faible); IND-004 — Industrie lourde à Karibib (Karas) (16.34 km², 3 signaux, confiance faible); IND-007 — Hydrocarbures et torchères à Walvisbay Urban (Khomas) (7.095 km², 3 signaux, confiance faible); IND-012 — Hydrocarbures et torchères à Windhoek West (Khomas) (3.01 km², 3 signaux, confiance faible); IND-005 — Site isolé à vérifier à Katima Muliro Urban (Caprivi) (11.395 km², 3 signaux, confiance faible); IND-006 — Site isolé à vérifier à Okatana (Ohangwena) (7.955 km², 3 signaux, confiance faible); IND-035 — Hydrocarbures et torchères à Windhoek Rural (Khomas) (0.86 km², 3 signaux, confiance faible)
+- `F08` 45 grappes industrielles détectées par concordance de signaux satellitaires : 10 d'industrie lourde, 10 zones d'activités et de logistique, 8 sites d'hydrocarbures et 17 sites isolés à vérifier. Elles émettent 17,8 % de la lumière nationale (dernière année) ; leur lumière évolue de +2,0 % par an. Oshana concentre la plus forte activité industrielle. (confiance faible : aucune liste de référence pour valider la détection)
+- `F50` 45 grappes industrielles (≥ 3 signaux sur 6) : Site isolé à vérifier 17, Industrie lourde 10, Zone d'activités et logistique 10, Hydrocarbures et torchères 8. Part de la lumière nationale : 17,8 % ; croissance annuelle +2,0 %. Pas de validation disponible.
+- `F51` IND-001 — Site isolé à vérifier à Otjinene (Oshana) (55.04 km², 3 signaux, confiance faible); IND-002 — Site isolé à vérifier à Onesi (Oshana) (27.09 km², 3 signaux, confiance faible); IND-003 — Industrie lourde à Rundu Urban (Kavango) (23.435 km², 4 signaux, confiance moyenne); IND-009 — Hydrocarbures et torchères à Opuwo (Erongo) (6.235 km², 3 signaux, confiance faible); IND-004 — Industrie lourde à Karibib (Karas) (16.34 km², 3 signaux, confiance faible); IND-007 — Hydrocarbures et torchères à Walvisbay Urban (Khomas) (7.095 km², 3 signaux, confiance faible); IND-012 — Hydrocarbures et torchères à Windhoek West (Khomas) (3.01 km², 3 signaux, confiance faible); IND-005 — Site isolé à vérifier à Katima Muliro Urban (Caprivi) (11.395 km², 3 signaux, confiance faible); IND-006 — Site isolé à vérifier à Okatana (Ohangwena) (7.955 km², 3 signaux, confiance faible); IND-033 — Hydrocarbures et torchères à Windhoek Rural (Khomas) (0.86 km², 3 signaux, confiance faible)
 - `F52` Oshana : 3 grappe(s) industrielle(s), 83,8 km², 68,3 % de la lumière de la région.
 
 ## 🏖️ Cas d'usage 7 — Tourisme saisonnier
@@ -172,4 +172,4 @@ VIIRS DNB mensuel (VCMSLCFG) et annuel VNL V2, DMSP–VIIRS harmonisé, Black Ma
 
 
 ---
-<sub>Généré par le notebook le 2026-10-30 · version 2.1.0</sub>
+<sub>Généré par le notebook le 2026-11-03 · version 2.1.0</sub>

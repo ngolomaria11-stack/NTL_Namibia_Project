@@ -13,7 +13,7 @@
   <a href="README.md"><img src="https://img.shields.io/badge/langues-FR%20%7C%20EN-F5C242" alt="FR | EN"></a>
   <a href="docs/methodology.fr.md"><img src="https://img.shields.io/badge/donn%C3%A9es-VIIRS%20%C2%B7%20Black%20Marble-0B121B?logo=nasa&logoColor=white" alt="VIIRS"></a>
   <a href="https://ngolomaria11-stack.github.io/NTL_Namibia_Project/fr/?country=NAM#assistant"><img src="https://img.shields.io/badge/agent%20IA-Groq%20%7C%20Gemini%20%7C%20Ollama-6E40C9" alt="Agent IA"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-2026--10--30-555" alt="mis à jour"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/mis%20%C3%A0%20jour-2026--11--03-555" alt="mis à jour"></a>
 </p>
 
 <p align="center"><a href="https://ngolomaria11-stack.github.io/NTL_Namibia_Project/fr/"><img src="https://img.shields.io/badge/OUVRIR%20LE%20TABLEAU%20DE%20BORD-%E2%96%B6-00704A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Ouvrir le tableau de bord" height="42"></a>&nbsp;&nbsp;<a href="https://colab.research.google.com/github/ngolomaria11-stack/NTL_Namibia_Project/blob/main/notebooks/NTL_8_use_cases_FR.ipynb"><img src="https://img.shields.io/badge/EX%C3%89CUTER%20LE%20NOTEBOOK%20DANS%20COLAB-%E2%96%B6-3F7FC7?style=for-the-badge&logo=googlecolab&logoColor=white" alt="Exécuter le notebook dans Colab" height="42"></a></p>
@@ -214,7 +214,7 @@ Méthodologie complète : [docs/methodology.fr.md](docs/methodology.fr.md) · ra
 | 💹 3 · Relation lumières–PIB | `Expérimental` | faible | corrélation / EAM (points) = -0,55 / 3,6 |
 | ⚡ 4 · Chocs et résilience | `Expérimental` | faible | creux (choc principal) = -2,9 % — non |
 | ⚖️ 5 · Inégalités et électrification | `Expérimental` | moyenne | écart moyen (points) = 28,9 |
-| 🏭 6 · Zones industrielles | `Expérimental` | faible | précision / rappel / F1 = 51 % / 14 % / 0,22 |
+| 🏭 6 · Zones industrielles | `Expérimental` | faible | précision / rappel / F1 = non disponible |
 | 🏖️ 7 · Tourisme saisonnier | `Expérimental` | faible | r = -0,13 |
 | 🏙️ 8 · Signaux d'urbanisation | `Expérimental` | élevée | Spearman ρ = 0,71 |
 
@@ -273,4 +273,4 @@ Développé par la **Banque africaine de développement (BAD)** et **Data Innova
 
 
 ---
-<p align="center"><sub>Généré par le notebook le 2026-10-30 · version 2.1.0 · <a href="https://github.com/ngolomaria11-stack/NTL_Namibia_Project">ngolomaria11-stack/NTL_Namibia_Project</a></sub></p>
+<p align="center"><sub>Généré par le notebook le 2026-11-03 · version 2.1.0 · <a href="https://github.com/ngolomaria11-stack/NTL_Namibia_Project">ngolomaria11-stack/NTL_Namibia_Project</a></sub></p>
